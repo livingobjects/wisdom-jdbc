@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.wisdom-framework</groupId>
     <artifactId>wisdom-framework</artifactId>
-    <version>0.10.0-SNAPSHOT</version>
+    <version>0.9.1</version>
   </parent>
 
   <artifactId>wisdom-jdbc</artifactId>
@@ -14,7 +14,7 @@
 
   <properties>
     <!-- should match Wisdom parent -->
-    <wisdom.version>0.10.0-SNAPSHOT</wisdom.version>
+    <wisdom.version>0.9.1</wisdom.version>
   </properties>
 
   <packaging>pom</packaging>
@@ -22,11 +22,11 @@
   <description>JDBC integration into Wisdom-Framework</description>
 
   <modules>
-    <module>wisdom-jdbc-drivers</module>
+    <!--<module>wisdom-jdbc-drivers</module>-->
     <module>wisdom-jdbc-datasources</module>
-    <module>wisdom-jpa-manager</module>
-    <module>wisdom-openjpa-enhancer-plugin</module>
-    <module>openjpa-sample</module>
+    <!--<module>wisdom-jpa-manager</module>-->
+    <!--<module>wisdom-openjpa-enhancer-plugin</module>-->
+    <!--<module>openjpa-sample</module>-->
   </modules>
 
   <scm>
@@ -63,6 +63,7 @@
               </execution>
             </executions>
             <configuration>
+              <skip>true</skip>
               <passphrase>${gpg.passphrase}</passphrase>
               <useAgent>true</useAgent>
             </configuration>
