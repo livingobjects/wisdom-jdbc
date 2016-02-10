@@ -3,9 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.wisdom-framework</groupId>
+        <groupId>com.livingobjects.wisdom</groupId>
         <artifactId>wisdom-jdbc</artifactId>
         <version>0.6-SNAPSHOT</version>
+        <relativePath>../</relativePath>
     </parent>
 
     <artifactId>wisdom-jdbc-datasources</artifactId>
@@ -80,13 +81,13 @@
         </dependency>
 
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.wisdom-framework</groupId>
             <artifactId>wisdom-api</artifactId>
             <version>${wisdom.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.wisdom-framework</groupId>
             <artifactId>wisdom-test</artifactId>
             <version>${wisdom.version}</version>
             <scope>test</scope>
@@ -126,7 +127,7 @@
 
         <dependency>
             <!-- Used in test -->
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.wisdom-framework</groupId>
             <artifactId>application-configuration</artifactId>
             <version>${wisdom.version}</version>
             <scope>test</scope>

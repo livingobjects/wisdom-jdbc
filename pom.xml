@@ -9,6 +9,7 @@
     <version>0.9.1</version>
   </parent>
 
+  <groupId>com.livingobjects.wisdom</groupId>
   <artifactId>wisdom-jdbc</artifactId>
   <version>0.6-SNAPSHOT</version>
 
@@ -30,9 +31,9 @@
   </modules>
 
   <scm>
-    <url>https://github.com/wisdom-framework/wisdom-jdbc/</url>
-    <connection>scm:git:git@github.com:wisdom-framework/wisdom-jdbc.git</connection>
-    <developerConnection>scm:git:git@github.com:wisdom-framework/wisdom-jdbc.git</developerConnection>
+    <url>https://github.com/livingobjects/wisdom-jdbc/</url>
+    <connection>scm:git:git@github.com:livingobjects/wisdom-jdbc.git</connection>
+    <developerConnection>scm:git:git@github.com:livingobjects/wisdom-jdbc.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
