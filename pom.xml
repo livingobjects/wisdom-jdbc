@@ -11,7 +11,7 @@
 
   <groupId>com.livingobjects.wisdom</groupId>
   <artifactId>wisdom-jdbc</artifactId>
-  <version>0.6</version>
+  <version>0.7-SNAPSHOT</version>
 
   <properties>
     <!-- should match Wisdom parent -->
